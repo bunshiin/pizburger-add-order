@@ -1,0 +1,302 @@
+﻿@model OrderIndexViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<section class="home">
+    <div class="content">
+        <h3>PizBurger</h3>
+
+        <p>Kalitenin #1 numaralı adresine hoşgeldiniz.</p>
+
+        <a href="#" class="btn">Hemen Al</a>
+    </div>
+</section>
+
+<section class="menu">
+    <h1 class="heading">Diğer <span>Menüler</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="box-head">
+                <img src="image/menu-1.png" alt="menu-1" />
+                <span class="menu-category">PIZZA</span>
+                <h3>6 Mini Pizza</h3>
+                <div class="price">₺49.99 <span>₺69.99</span></div>
+            </div>
+
+            <div class="box-bottom">
+                <a href="" class="btn">Sepete Ekle</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="image/menu-2.png" alt="menu-1" />
+                <span class="menu-category">BURGER</span>
+                <h3>5 Mini Burger</h3>
+                <div class="price">₺59.99 <span>₺79.99</span></div>
+            </div>
+
+            <div class="box-bottom">
+                <a href="" class="btn">Sepete Ekle</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="image/menu-3.png" alt="menu-1" />
+                <span class="menu-category">PIZZA</span>
+                <h3>2 Karışık Ortaboy Pizza</h3>
+                <div class="price">₺69.99 <span>₺89.99</span></div>
+            </div>
+
+            <div class="box-bottom">
+                <a href="" class="btn">Sepete Ekle</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <img src="image/menu-4.png" alt="menu-1" />
+                <span class="menu-category">BURGER</span>
+                <h3>3 Köfteli Büyük</h3>
+                <div class="price">₺109.99 <span>₺99.99</span></div>
+            </div>
+
+            <div class="box-bottom">
+                <a href="" class="btn">Sepete Ekle</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="products">
+    <h1 class="heading">Diğer <span>Ürünler</span></h1>
+
+    <div class="box-container">
+        <div class="box">
+            <div class="box-head">
+                <span class="title">MINI BURGER</span>
+                <a href="#" class="name">Et burger</a>
+            </div>
+            <div class="image">
+                <img src="image/product-1.png" alt="product" />
+            </div>
+            <div class="box-bottom">
+                <div class="info">
+                    <b class="price">₺50.00</b>
+                    <span class="amount">110gr/ 300 cal</span>
+                </div>
+                <div class="product-btn">
+                    <a href="#">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="box-head">
+                <span class="title">MINI BURGER</span>
+                <a href="#" class="name">Siyah Et Burger</a>
+            </div>
+            <div class="image">
+                <img src="image/product-2.png" alt="product" />
+            </div>
+            <div class="box-bottom">
+                <div class="info">
+                    <b class="price">₺90.00</b>
+                    <span class="amount">110gr/ 300 cal</span>
+                </div>
+                <div class="product-btn">
+                    <a href="#">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box dark-bg">
+            <div class="box-head">
+                <span class="title">MINI BURGER</span>
+                <a href="#" class="name">Double Et Burger</a>
+            </div>
+            <div class="image">
+                <img src="image/dark-product.jpg" alt="product" />
+            </div>
+            <div class="box-bottom">
+                <div class="info">
+                    <b class="price">₺150.00</b>
+                    <span class="amount">110gr/ 300 cal</span>
+                </div>
+                <div class="product-btn">
+                    <a href="#">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="about">
+    <h1 class="heading">Hakkı<span>mızda</span></h1>
+    <div class="row">
+        <div class="image">
+            <img src="image/about.jpg" alt="about-image" />
+        </div>
+
+        <div class="content">
+            <h3>Burgerlerimizde Saklı Olan Lezzet Ne?</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                debitis deleniti esse quod perspiciatis dolorem reprehenderit labore
+                nobis quis?
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                debitis deleniti esse quod perspiciatis dolorem reprehenderit labore
+                nobis quis?
+            </p>
+
+            <a href="#" class="btn">Devamını Oku</a>
+        </div>
+    </div>
+</section>
+
+<section class="review">
+    <h1 class="heading">Popüler <span>Yorumlar</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="image/quote.png" alt="quote" />
+            <p>
+                Bu burger ve pizza yerini şiddetle tavsiye ediyorum! Yemekler
+                gerçekten muhteşem, tadı damağınızda kalacak. İlk ısırıktan itibaren
+                hayran kalacaksınız. 🍔🍕😍
+            </p>
+            <img src="image/avatar-1.png" alt="user" class="user" />
+            <h3>Elina Öztürk</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/quote.png" alt="quote" />
+            <p>
+                Efsanevi burgerleri ve pizzaları ile favori mekanım oldu. Lezzetler
+                gerçekten inanılmaz. Herkese denemelerini şiddetle tavsiye ederim.
+                🤤👌🍔🍕
+            </p>
+            <img src="image/avatar-2.png" alt="user" class="user" />
+            <h3>Yusuf Çınar Üstal</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/quote.png" alt="quote" />
+            <p>
+                Bu burger ve pizza yerine bayılıyorum! En sevdiğim lezzetleri burada
+                buldum ve her defasında mükemmel bir deneyim yaşadım. Gerçekten
+                harika bir yer. 🙌🍔🍕❤️
+            </p>
+            <img src="image/avatar-3.png" alt="user" class="user" />
+            <h3>Mirac Darcin</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="blogs">
+    <h1 class="heading">BL<span>OG</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="image/blog-1.jpg" alt="" />
+            </div>
+            <div class="content">
+                <a href="#" class="title">Burgerleriminiz sırrı ne?</a>
+                <span>Admin Tarafından / 19 Eylül 2022</span>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non,
+                    quibusdam!
+                </p>
+                <a href="#" class="btn">Devamını Oku</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="image/blog-2.jpg" alt="" />
+            </div>
+            <div class="content">
+                <a href="#" class="title">Neden PizBurger?</a>
+                <span>Admin Tarafından / 2 Nisan, 2023</span>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non,
+                    quibusdam!
+                </p>
+                <a href="#" class="btn">Devamını Oku</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="image/blog-3.jpg" alt="" />
+            </div>
+            <div class="content">
+                <a href="#" class="title">Burgerleriminiz sırrı ne?</a>
+                <span>Admin Tarafından / 10 Mayıs, 2023</span>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non,
+                    quibusdam!
+                </p>
+                <a href="#" class="btn">Devamını Oku</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <div class="search">
+        <input type="text" class="search-input" placeholder="Arama" />
+        <button class="btn btn-primary">Arama</button>
+    </div>
+    <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-tiktok"></a>
+    </div>
+    <div class="links">
+        <a href="#">Ana Sayfa</a>
+        <a href="#">Hakkımızda</a>
+        <a href="#">Menü</a>
+        <a href="#">Ürünler</a>
+        <a href="#">Geri Bildirim</a>
+        <a href="#">İletişim</a>
+        <a href="#">Bloglar</a>
+    </div>
+
+    <div class="credit">
+        <span>Muhammet Bulut</span> tarafından oluşturuldu | Tüm hakları
+        saklıdır.
+    </div>
+</section>
+

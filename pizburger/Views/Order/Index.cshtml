@@ -1,0 +1,52 @@
+﻿@model OrderIndexViewModel
+
+
+
+
+
+<br />
+<br />
+
+
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model=>model.orders.FirstOrDefault().Name)
+
+
+
+                    @*bu dinamik olarak kategori adını almak için descriptionu manule yazdık*@
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model=>model.orders.FirstOrDefault().Description)
+                </th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+               
+            </tr>
+        </tfoot>
+        <tbody>
+            @foreach (var item in Model.orders)
+            {
+                <tr>
+                    <td>
+                        @item.Name
+                    </td>
+                    <td>
+                        @item.Description
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+
+
+
+<a class="btn-order btn-success" style="" asp-route="create-route">Yeni Sipariş</a>

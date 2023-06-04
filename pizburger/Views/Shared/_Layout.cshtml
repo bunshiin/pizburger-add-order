@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/pizburger.styles.css" asp-append-version="true" />
+    <link rel="icon" href="image/menu-4.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - pizburger</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="image/logo.png" alt="logo">
+        </a>
+
+        <nav class="navbar">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Ana sayfa</a>
+            <a href="#">Hakkımızda</a>
+            <a href="#">Menü</a>
+            <a href="#">Ürünler</a>
+            <a href="#">İletişim</a>
+            <a href="#">Bloglar</a>
+            <a class="nav-link text-dark" asp-route="order-route">Siparişler</a>
+   
+        </nav>
+
+        <div class="buttons">
+
+            <button>
+                <i id="searchBox" class="fas fa-search"></i>
+            </button>
+
+            <button>
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+
+            <button id="menu-btn">
+                <i class="fa-solid fa-burger"></i>
+            </button>
+
+        </div>
+
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="Arama yapın">
+            <i class="fas fa-search"></i>
+        </div>
+
+    </header>
+    
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+   
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,53 @@
+﻿@model OrderCreateViewModel
+
+<form method="post">
+   <style>
+       
+
+        .form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+            .form input {
+                width: 250px;
+                padding: 10px;
+                margin-bottom: 10px;
+                border-radius: 5px;
+            }
+
+            .form button {
+                margin-top: 1rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 2rem 3.75rem;
+                border-radius: 30rem;
+                font-size: 1.8rem;
+                color: #fff;
+                background-color: var(--black-color);
+                cursor: pointer;
+                width: 20%; /* Örneğin, butonun yarı genişlikte olmasını sağlar */
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+                .form button:hover {
+                    opacity: .8;
+                }
+
+       
+
+   </style>
+    <div class="form">
+        <input asp-for="Name" type="text" placeholder="Name">
+        <input asp-for="Description" type="text" placeholder="Description">
+        <button class="btn-order" type="submit">Siparişi Gönder</button>
+    </div>
+
+</form>
+

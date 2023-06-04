@@ -1,0 +1,105 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\bulut\\OneDrive\\Masaüstü\\pizburger\\pizburger\\pizburger\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\pizburger.bundle.scp.css",
+      "PackagePath": "staticwebassets\\pizburger.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\bulut\\OneDrive\\Masaüstü\\pizburger\\pizburger\\pizburger\\wwwroot\\Image\\about.jpg",
+      "PackagePath": "staticwebassets\\Image\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bulut\\OneDrive\\Masaüstü\\pizburger\\pizburger\\pizburger\\wwwroot\\Image\\avatar-1.png",
+      "PackagePath": "staticwebassets\\Image\\avatar-1.png"
+    },
+    {
+      "Id": "C:\\Users\\bulut\\OneDrive\\Masaüstü\\pizburger\\pizburger\\pizburger\\wwwroot\\Image\\avatar-2.png",
+      "PackagePath": "staticwebassets\\Image\\avatar-2.png"
+    },
+    {
+      "Id": "C:\\Users\\bulut\\OneDrive\\Masaüstü\\pizburger\\pizburger\\pizburger\\wwwroot\\Image\\avatar-3.png",
+      "PackagePath": "staticwebassets\\Image\\avatar-3.png"
+    },
+    {
+      "Id": "C:\\Users\\bulut\\OneDrive\\Masaüstü\\pizburger\\pizburger\\pizburger\\wwwroot\\Image\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\Image\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bulut\\OneDrive\\Masaüstü\\pizburger\\pizburger\\pizburger\\wwwroot\\Image\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\Image\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bulut\\OneDrive\\Masaüstü\\pizburger\\pizburger\\pizburger\\wwwroot\\Image\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\Image\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bulut\\OneDrive\\Masaüstü\\pizburger\\pizburger\\pizburger\\wwwroot\\Image\\dark-product.jpg",
+      "PackagePath": "staticwebassets\\Image\\dark-product.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bulut\\OneDrive\\Masaüstü\\pizburger\\pizburger\\pizburger\\wwwroot\\Image\\home.jpg",
+      "PackagePath": "staticwebassets\\Image\\home.jpg"
+    },
+    {
+      "Id": "C:\\Users\\bulut\\OneDrive\\Masaüstü\\pizburger\\pizburger\\pizburger\\wwwroot\\Image\\logo.png",
+      "PackagePath": "staticwebassets\\Image\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\bulut\\OneDrive\\Masaüstü\\pizburger\\pizburger\\pizburger\\wwwroot\\Image\\menu-1.png",
+      "PackagePath": "staticwebassets\\Image\\menu-1.png"
+    },
+    {
+      "Id": "C:\\Users\\bulut\\OneDrive\\Masaüstü\\pizburger\\pizburger\\pizburger\\wwwroot\\Image\\menu-2.png",
+      "PackagePath": "staticwebassets\\Image\\menu-2.png"
+    },
+    {
+      "Id": "C:\\Users\\bulut\\OneDrive\\Masaüstü\\pizburger\\pizburger\\pizburger\\wwwroot\\Image\\menu-3.png",
+      "PackagePath": "staticwebassets\\Image\\menu-3.png"
+    },
+    {
+      "Id": "C:\\Users\\bulut\\OneDrive\\Masaüstü\\pizburger\\pizburger\\pizburger\\wwwroot\\Image\\menu-4.png",
+      "PackagePath": "staticwebassets\\Image\\menu-4.png"
+    },
+    {
+      "Id": "C:\\Users\\bulut\\OneDrive\\Masaüstü\\pizburger\\pizburger\\pizburger\\wwwroot\\Image\\product-1.png",
+      "PackagePath": "staticwebassets\\Image\\product-1.png"
+    },
+    {
+      "Id": "C:\\Users\\bulut\\OneDrive\\Masaüstü\\pizburger\\pizburger\\pizburger\\wwwroot\\Image\\product-2.png",
+      "PackagePath": "staticwebassets\\Image\\product-2.png"
+    },
+    {
+      "Id": "C:\\Users\\bulut\\OneDrive\\Masaüstü\\pizburger\\pizburger\\pizburger\\wwwroot\\Image\\quote.png",
+      "PackagePath": "staticwebassets\\Image\\quote.png"
+    },
+    {
+      "Id": "C:\\Users\\bulut\\OneDrive\\Masaüstü\\pizburger\\pizburger\\pizburger\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\bulut\\OneDrive\\Masaüstü\\pizburger\\pizburger\\pizburger\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\bulut\\OneDrive\\Masaüstü\\pizburger\\pizburger\\pizburger\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.pizburger.props",
+      "PackagePath": "build\\pizburger.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.pizburger.props",
+      "PackagePath": "buildMultiTargeting\\pizburger.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.pizburger.props",
+      "PackagePath": "buildTransitive\\pizburger.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.pizburger.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
